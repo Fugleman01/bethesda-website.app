@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved | Bethesda Health Network</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-fontawesome/6.4.0/css/all.min.css">
+    <style>
+        .brand-gradient {
+            background: radial-gradient(circle at top right, rgba(107, 29, 47, 0.05), transparent 45%),
+                        radial-gradient(circle at bottom left, rgba(22, 163, 74, 0.03), transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50/50 text-gray-800 font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- 1. NAVIGATION BAR -->
+    <header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="assets/logo.png" alt="Bethesda Health Network Logo" class="h-12 md:h-14 w-auto object-contain">
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 font-medium tracking-wide text-sm">
+                <a href="index.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Home</a>
+                <a href="about.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">About Us</a>
+                <a href="hub.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Health Hub</a>
+                <a href="get-involved.html" class="text-green-600 font-semibold border-b-2 border-green-600 pb-1">Get Involved</a>
+                <a href="contact.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Contact</a>
+            </nav>
+            <a href="get-involved.html" class="bg-[#6B1D2F] text-white px-6 py-2.5 rounded-full font-semibold hover:bg-opacity-95 transition-all shadow-sm text-sm">
+                Get Involved
+            </a>
+        </div>
+    </header>
+
+    <!-- 2. MAIN CONTENT -->
+    <main class="flex-grow">
+        
+        <!-- HERO HEADLINE -->
+        <section class="brand-gradient py-20 bg-white border-b border-gray-100">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <span class="text-green-600 font-bold uppercase tracking-widest text-xs">Join The Movement</span>
+                <h1 class="text-4xl md:text-5xl font-black text-gray-900 tracking-tight mt-3 mb-6">
+                    Be the Catalyst for <span class="text-[#6B1D2F]">Real Change</span>
+                </h1>
+                <p class="text-lg text-gray-600 font-light max-w-2xl mx-auto leading-relaxed">
+                    Whether you carry clinical expertise, operational prowess, or a raw passion for community advocacy, your energy belongs here.
+                </p>
+            </div>
+        </section>
+
+        <!-- ENGAGEMENT CHANNELS SPLIT -->
+        <section class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+                
+                <!-- Left Option: Volunteer -->
+                <div class="bg-gray-50/40 p-8 md:p-12 rounded-3xl border border-gray-100/80 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 bg-emerald-50 text-green-600 rounded-xl flex items-center justify-center text-xl"><i class="fa-solid fa-users"></i></div>
+                        <h2 class="text-2xl font-extrabold text-gray-900 tracking-tight">Become a Field Volunteer</h2>
+                        <p class="text-gray-600 text-sm leading-relaxed font-light">Join our medical screening crews, assist with physical resource drop-offs, or lead vital youth health workshops in local areas. Perfect for students, health workers, and organizers.</p>
+                    </div>
+                    <div class="pt-8">
+                        <a href="#volunteer-form" class="inline-flex items-center gap-2 bg-green-600 text-white font-bold px-6 py-3 rounded-full text-xs hover:bg-green-700 transition-all shadow-sm">
+                            Jump to Application Form &darr;
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Option: Partner/Donate -->
+                <div class="bg-gray-50/40 p-8 md:p-12 rounded-3xl border border-gray-100/80 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 bg-rose-50 text-[#6B1D2F] rounded-xl flex items-center justify-center text-xl"><i class="fa-solid fa-handshake-angle"></i></div>
+                        <h2 class="text-2xl font-extrabold text-gray-900 tracking-tight">Corporate & Brand Partnership</h2>
+                        <p class="text-gray-600 text-sm leading-relaxed font-light">Sponsor essential medical diagnostic testing, fund hygiene assets for public schools, or collaborate on healthcare media production pipelines. Let's maximize structural impact together.</p>
+                    </div>
+                    <div class="pt-8">
+                        <a href="https://wa.me/2349130900281" target="_blank" class="inline-flex items-center gap-2 bg-[#6B1D2F] text-white font-bold px-6 py-3 rounded-full text-xs hover:bg-opacity-95 transition-all shadow-sm">
+                            Partner With Us <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- VOLUNTEER REGISTRATION FORM SECTION -->
+        <section id="volunteer-form" class="py-24 bg-gray-50/40 border-t border-gray-100 scroll-mt-24">
+            <div class="max-w-3xl mx-auto px-6">
+                <div class="bg-white p-8 md:p-12 rounded-3xl border border-gray-100 shadow-xl shadow-gray-100/50">
+                    <div class="text-center max-w-md mx-auto mb-10">
+                        <h2 class="text-2xl font-extrabold text-gray-900 tracking-tight">Volunteer Registration</h2>
+                        <p class="text-gray-500 text-xs mt-1">Fill out the foundational setup below, and our internal operations lead will reach out to you within 48 business hours.</p>
+                    </div>
+
+                    <!-- Application Form -->
+                    <form action="#" method="POST" class="space-y-6">
+                        <div class="grid sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">First Name</label>
+                                <input type="text" required class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-600 focus:bg-white transition-all text-gray-800" placeholder="Jane">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Last Name</label>
+                                <input type="text" required class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-600 focus:bg-white transition-all text-gray-800" placeholder="Doe">
+                            </div>
+                        </div>
+
+                        <div class="grid sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Email Address</label>
+                                <input type="email" required class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-600 focus:bg-white transition-all text-gray-800" placeholder="jane@example.com">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Phone Number</label>
+                                <input type="tel" required class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-600 focus:bg-white transition-all text-gray-800" placeholder="+234 ...">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Primary Area of Interest</label>
+                            <select required class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-600 focus:bg-white transition-all text-gray-700">
+                                <option value="">Select an option...</option>
+                                <option value="medical">Medical Outreaches & Diagnostic Screenings</option>
+                                <option value="sanitary">Sanitary Asset Distribution Teams</option>
+                                <option value="media">Media, Content Creation & Health Literacy</option>
+                                <option value="logistics">Logistics, Coordination & Event Setup</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Briefly tell us why you want to join Bethesda</label>
+                            <textarea rows="4" required class="w-full bg-gray-50 border border-gray-200 rounded-xl p-4 text-sm focus:outline-none focus:border-green-600 focus:bg-white transition-all text-gray-800 placeholder-gray-400" placeholder="Share your experience or motivation with us..."></textarea>
+                        </div>
+
+                        <div class="pt-2">
+                            <button type="submit" class="w-full bg-[#6B1D2F] text-white font-bold py-3.5 rounded-xl text-xs uppercase tracking-widest hover:bg-opacity-95 transition-all shadow-md">
+                                Submit Application
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 3. FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-16 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-left">
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4 tracking-wide">Bethesda Health Network</h3>
+                <p class="text-sm font-light leading-relaxed max-w-xs">Advancing community wellness through prevention, maternal safety, and youth healthcare infrastructure.</p>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold text-xs uppercase tracking-widest mb-4">Quick Links</h3>
+                <ul class="space-y-3 text-sm font-light">
+                    <li><a href="about.html" class="hover:text-white transition-colors">Our Story & Vision</a></li>
+                    <li><a href="hub.html" class="hover:text-white transition-colors">Health Hub Blog</a></li>
+                    <li><a href="get-involved.html" class="hover:text-white transition-colors">Become a Volunteer</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold text-xs uppercase tracking-widest mb-4">Connect With Us</h3>
+                <div class="flex gap-4 text-xl text-gray-400">
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 border-t border-gray-800/60 mt-12 pt-8 text-center text-xs tracking-wider">
+            <p>&copy; 2026 Bethesda Health Network. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/2349130900281" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-105 transition-all z-50">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
