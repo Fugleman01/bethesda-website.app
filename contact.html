@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Bethesda Health Network</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-fontawesome/6.4.0/css/all.min.css">
+    <style>
+        .brand-gradient {
+            background: radial-gradient(circle at top right, rgba(107, 29, 47, 0.05), transparent 45%),
+                        radial-gradient(circle at bottom left, rgba(22, 163, 74, 0.03), transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50/50 text-gray-800 font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- 1. NAVIGATION BAR -->
+    <header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="assets/logo.png" alt="Bethesda Health Network Logo" class="h-12 md:h-14 w-auto object-contain">
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 font-medium tracking-wide text-sm">
+                <a href="index.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Home</a>
+                <a href="about.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">About Us</a>
+                <a href="hub.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Health Hub</a>
+                <a href="get-involved.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Get Involved</a>
+                <a href="contact.html" class="text-green-600 font-semibold border-b-2 border-green-600 pb-1">Contact</a>
+            </nav>
+            <a href="get-involved.html" class="bg-[#6B1D2F] text-white px-6 py-2.5 rounded-full font-semibold hover:bg-opacity-95 transition-all shadow-sm text-sm">
+                Get Involved
+            </a>
+        </div>
+    </header>
+
+    <!-- 2. MAIN CONTENT -->
+    <main class="flex-grow">
+        
+        <!-- CONTACT HERO -->
+        <section class="brand-gradient py-20 bg-white border-b border-gray-100">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <span class="text-green-600 font-bold uppercase tracking-widest text-xs">Get In Touch</span>
+                <h1 class="text-4xl md:text-5xl font-black text-gray-900 tracking-tight mt-3 mb-6">
+                    We Are Here to Listen <span class="text-[#6B1D2F]">& Connect</span>
+                </h1>
+                <p class="text-lg text-gray-600 font-light max-w-2xl mx-auto leading-relaxed">
+                    Have questions about our medical outreaches, partnership options, or want to invite our team to a local area? Drop us a line.
+                </p>
+            </div>
+        </section>
+
+        <!-- TWO-COLUMN CONTACT INTERFACE -->
+        <section class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-16 items-start">
+                
+                <!-- Left Column: Contact Channels -->
+                <div class="lg:col-span-5 space-y-8">
+                    <div>
+                        <h2 class="text-2xl font-extrabold text-gray-900 tracking-tight mb-3">Direct Channels</h2>
+                        <p class="text-gray-500 text-sm font-light leading-relaxed">Reach out directly via phone, email, or secure WhatsApp messaging channels for an immediate operational response.</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <!-- Channel 1: WhatsApp -->
+                        <a href="https://wa.me/2349130900281" target="_blank" class="flex items-center gap-5 p-5 rounded-2xl border border-gray-100 bg-gray-50/30 hover:bg-white hover:shadow-md hover:border-green-500/20 transition-all duration-300 group">
+                            <div class="w-12 h-12 bg-emerald-50 text-green-600 rounded-xl flex items-center justify-center text-xl shrink-0 group-hover:scale-105 transition-transform"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400">WhatsApp Hotlines</h3>
+                                <p class="text-sm font-bold text-gray-900 mt-0.5">+234 913 090 0281</p>
+                            </div>
+                        </a>
+
+                        <!-- Channel 2: Email -->
+                        <a href="mailto:info@bethesdahealthnetwork.org" class="flex items-center gap-5 p-5 rounded-2xl border border-gray-100 bg-gray-50/30 hover:bg-white hover:shadow-md hover:border-[#6B1D2F]/20 transition-all duration-300 group">
+                            <div class="w-12 h-12 bg-rose-50 text-[#6B1D2F] rounded-xl flex items-center justify-center text-xl shrink-0 group-hover:scale-105 transition-transform"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400">General Enquiries</h3>
+                                <p class="text-sm font-bold text-gray-900 mt-0.5">info@bethesdahealthnetwork.org</p>
+                            </div>
+                        </a>
+
+                        <!-- Channel 3: Location / Scope -->
+                        <div class="flex items-center gap-5 p-5 rounded-2xl border border-gray-100 bg-gray-50/30">
+                            <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-map-location-dot"></i></div>
+                            <div>
+                                <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400">Primary Location</h3>
+                                <p class="text-sm font-bold text-gray-900 mt-0.5">Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Clean Form -->
+                <div class="lg:col-span-7 bg-gray-50/40 p-8 md:p-10 rounded-3xl border border-gray-100/80">
+                    <h2 class="text-xl font-bold text-gray-900 tracking-tight mb-2">Send a Secure Message</h2>
+                    <p class="text-gray-500 text-xs font-light mb-8">Fill out your query structure below, and our community communication team will manage it swiftly.</p>
+
+                    <form action="#" method="POST" class="space-y-6">
+                        <div class="grid sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Full Name</label>
+                                <input type="text" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-600 transition-all text-gray-800" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Email Address</label>
+                                <input type="email" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-600 transition-all text-gray-800" placeholder="you@example.com">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Subject</label>
+                            <input type="text" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-600 transition-all text-gray-800" placeholder="How can we help you?">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">Message Content</label>
+                            <textarea rows="5" required class="w-full bg-white border border-gray-200 rounded-xl p-4 text-sm focus:outline-none focus:border-green-600 transition-all text-gray-800 placeholder-gray-400" placeholder="Type your detailed message here..."></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="w-full bg-green-600 text-white font-bold py-3.5 rounded-xl text-xs uppercase tracking-widest hover:bg-green-700 transition-all shadow-md">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 3. FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-16 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-left">
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4 tracking-wide">Bethesda Health Network</h3>
+                <p class="text-sm font-light leading-relaxed max-w-xs">Advancing community wellness through prevention, maternal safety, and youth healthcare infrastructure.</p>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold text-xs uppercase tracking-widest mb-4">Quick Links</h3>
+                <ul class="space-y-3 text-sm font-light">
+                    <li><a href="about.html" class="hover:text-white transition-colors">Our Story & Vision</a></li>
+                    <li><a href="hub.html" class="hover:text-white transition-colors">Health Hub Blog</a></li>
+                    <li><a href="get-involved.html" class="hover:text-white transition-colors">Become a Volunteer</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold text-xs uppercase tracking-widest mb-4">Connect With Us</h3>
+                <div class="flex gap-4 text-xl text-gray-400">
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 border-t border-gray-800/60 mt-12 pt-8 text-center text-xs tracking-wider">
+            <p>&copy; 2026 Bethesda Health Network. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/2349130900281" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-105 transition-all z-50">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
