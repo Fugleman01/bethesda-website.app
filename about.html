@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Bethesda Health Network</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-fontawesome/6.4.0/css/all.min.css">
+    <style>
+        .brand-gradient {
+            background: radial-gradient(circle at top right, rgba(107, 29, 47, 0.05), transparent 45%),
+                        radial-gradient(circle at bottom left, rgba(22, 163, 74, 0.03), transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50/50 text-gray-800 font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- 1. NAVIGATION BAR -->
+    <header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="assets/logo.png" alt="Bethesda Health Network Logo" class="h-12 md:h-14 w-auto object-contain">
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 font-medium tracking-wide text-sm">
+                <a href="index.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Home</a>
+                <a href="about.html" class="text-green-600 font-semibold border-b-2 border-green-600 pb-1">About Us</a>
+                <a href="hub.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Health Hub</a>
+                <a href="get-involved.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Get Involved</a>
+                <a href="contact.html" class="text-gray-500 hover:text-[#6B1D2F] transition-colors">Contact</a>
+            </nav>
+            <a href="get-involved.html" class="bg-[#6B1D2F] text-white px-6 py-2.5 rounded-full font-semibold hover:bg-opacity-95 transition-all shadow-sm text-sm">
+                Get Involved
+            </a>
+        </div>
+    </header>
+
+    <!-- 2. MAIN CONTENT -->
+    <main class="flex-grow">
+        
+        <!-- HEADER HERO -->
+        <section class="brand-gradient py-20 text-center bg-white border-b border-gray-100">
+            <div class="max-w-3xl mx-auto px-6">
+                <span class="text-green-600 font-bold uppercase tracking-widest text-xs">Who We Are</span>
+                <h1 class="text-4xl md:text-5xl font-black text-gray-900 tracking-tight mt-3 mb-6">
+                    Our Story, Our Value & <span class="text-[#6B1D2F]">Our Culture</span>
+                </h1>
+                <p class="text-lg text-gray-600 font-light leading-relaxed">
+                    Bethesda Health Network was founded on a simple, powerful conviction: healthcare shouldn't just respond to illness—it should actively preserve human dignity.
+                </p>
+            </div>
+        </section>
+
+        <!-- THE DETAILED JOURNEY -->
+        <section class="py-24 bg-white">
+            <div class="max-w-4xl mx-auto px-6 narrative-space">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 tracking-tight">How It All Began</h2>
+                <p class="text-gray-600 leading-relaxed mb-6 text-sm md:text-base">
+                    We noticed a critical, recurring gap in local healthcare delivery. While clinical care existed, basic preventive knowledge and crucial physiological resources—specifically regarding youth sanitary infrastructure and maternal welfare safety nets—were severely lagging. 
+                </p>
+                <blockquote class="border-l-4 border-[#6B1D2F] pl-6 my-8 italic text-gray-700 font-medium bg-rose-50/40 py-4 pr-4 rounded-r-xl text-sm">
+                    "We realized that true wellness begins long before someone needs a hospital bed. It starts with education, foundational tools, and community-driven safety infrastructures."
+                </blockquote>
+                <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                    Today, Bethesda operates as a dynamic health network. By blending digital health content creation with aggressive field outreaches and localized medical screenings, we ensure that our baseline structural philosophy remains intact: <strong>Prevention Comes First.</strong>
+                </p>
+            </div>
+        </section>
+
+        <!-- CORE VALUES CORE GRAPHIC -->
+        <section class="py-24 bg-gray-50/50 border-t border-gray-100">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-xl mx-auto mb-16">
+                    <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight">Our Core Values</h2>
+                    <p class="text-gray-500 text-sm mt-2">The non-negotiable pillars that anchor our decisions and field executions daily.</p>
+                </div>
+
+                <div class="grid md:grid-cols-4 gap-8">
+                    <!-- Value 1 -->
+                    <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-xs">
+                        <div class="text-xl text-[#6B1D2F] mb-4"><i class="fa-solid fa-heart-circle-check"></i></div>
+                        <h3 class="font-bold text-gray-900 mb-2 text-base">Absolute Dignity</h3>
+                        <p class="text-gray-500 text-xs leading-relaxed">We view sanitary care and physical health as absolute human rights, not luxuries.</p>
+                    </div>
+                    <!-- Value 2 -->
+                    <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-xs">
+                        <div class="text-xl text-green-600 mb-4"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3 class="font-bold text-gray-900 mb-2 text-base">Upfront Prevention</h3>
+                        <p class="text-gray-500 text-xs leading-relaxed">We focus on eliminating biological health risks before they evolve into medical emergencies.</p>
+                    </div>
+                    <!-- Value 3 -->
+                    <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-xs">
+                        <div class="text-xl text-amber-500 mb-4"><i class="fa-solid fa-users-viewfinder"></i></div>
+                        <h3 class="font-bold text-gray-900 mb-2 text-base">Community Trust</h3>
+                        <p class="text-gray-500 text-xs leading-relaxed">We ground our work within the communities we serve, ensuring sustainable, hyper-local impact.</p>
+                    </div>
+                    <!-- Value 4 -->
+                    <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-xs">
+                        <div class="text-xl text-blue-600 mb-4"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3 class="font-bold text-gray-900 mb-2 text-base">Radical Literacy</h3>
+                        <p class="text-gray-500 text-xs leading-relaxed">We leverage media channels to deliver clear, accurate, and completely accessible health insights.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 3. FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-16 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-left">
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4 tracking-wide">Bethesda Health Network</h3>
+                <p class="text-sm font-light leading-relaxed max-w-xs">Advancing community wellness through prevention, maternal safety, and youth healthcare infrastructure.</p>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold text-xs uppercase tracking-widest mb-4">Quick Links</h3>
+                <ul class="space-y-3 text-sm font-light">
+                    <li><a href="about.html" class="hover:text-white transition-colors">Our Story & Vision</a></li>
+                    <li><a href="hub.html" class="hover:text-white transition-colors">Health Hub Blog</a></li>
+                    <li><a href="get-involved.html" class="hover:text-white transition-colors">Become a Volunteer</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold text-xs uppercase tracking-widest mb-4">Connect With Us</h3>
+                <div class="flex gap-4 text-xl text-gray-400">
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 border-t border-gray-800/60 mt-12 pt-8 text-center text-xs tracking-wider">
+            <p>&copy; 2026 Bethesda Health Network. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/2349130900281" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-105 transition-all z-50">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
